@@ -1,5 +1,5 @@
 # SSM+Redis-Demo
-SSM+（spring+springmvc+mybatis+redis）框架 Demo
+SSM+Redis（spring+springmvc+mybatis+redis）框架 Demo
 
 Demo是在IDEA下搭建的Maven项目。
 
