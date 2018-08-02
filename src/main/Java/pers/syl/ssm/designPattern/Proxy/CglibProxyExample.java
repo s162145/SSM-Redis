@@ -1,4 +1,4 @@
-package pers.syl.ssm.designPattern.Pattern;
+package pers.syl.ssm.designPattern.Proxy;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;

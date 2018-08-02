@@ -1,4 +1,4 @@
-package pers.syl.ssm.designPattern.Pattern;
+package pers.syl.ssm.designPattern.Proxy;
 
 public class HelloWorldNoInterface {
     public void sayHelloWorld(){

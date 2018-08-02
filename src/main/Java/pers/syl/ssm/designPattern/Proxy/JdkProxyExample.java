@@ -1,4 +1,4 @@
-package pers.syl.ssm.designPattern.Pattern;
+package pers.syl.ssm.designPattern.Proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -7,36 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a6cc88-f68d-4f31-a165-d429119c46ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Java/Controllers/ProxyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/CglibProxyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldNoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/JdkProxyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CGLIBPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/InterceptorJdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JDKPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/MyInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RedisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RequestTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RequestTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Dao/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/SeeUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/SeeUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/IStudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/RedisBaiseTakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/RedisBaiseTakes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/ServiceImpl/SeeUserRedisTakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/ServiceImpl/SeeUserRedisTakes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/RedisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/RequestTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/RequestTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/SeeUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/SeeUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/IStudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/RedisBaiseTakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/RedisBaiseTakes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServiceImpl/SeeUserRedisTakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServiceImpl/SeeUserRedisTakes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Java/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Java/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/Controllers/ProxyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Controllers/ProxyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/CglibProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CglibProxyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/HelloWorldImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldNoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/HelloWorldNoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/JdkProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JdkProxyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/ProxyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/ProxyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ProxyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ProxyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/syl/ssm/designPattern/Pattern/CglibProxyExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/syl/ssm/designPattern/Pattern/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/syl/ssm/designPattern/Pattern/HelloWorldImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/syl/ssm/designPattern/Pattern/HelloWorldNoInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/syl/ssm/designPattern/Pattern/JdkProxyExample.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,26 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWorldImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JdkProxyExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/JdkProxyExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JdkProxyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="459">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +55,65 @@
       <file leaf-file-name="ProxyController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/ProxyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="37" column="71" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interceptor1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/Interceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterceptorJdkProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/InterceptorJdkProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interceptor2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interceptor3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +122,34 @@
         </entry>
       </file>
       <file leaf-file-name="CglibProxyExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/CglibProxyExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CglibProxyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="44" column="1" lean-forward="true" selection-start-line="8" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="324">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDKPractice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JDKPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CGLIBPractice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CGLIBPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="16" column="113" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +205,18 @@
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldImpl.java" />
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldNoInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/Interceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/InterceptorJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/InterceptorCGLIBProxy.java" />
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/CglibProxyExample.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CglibProxyExample.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JDKPractice.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CGLIBPractice.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/InterceptorJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor1.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor2.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor3.java" />
         <option value="$PROJECT_DIR$/src/main/Java/Controllers/ProxyController.java" />
       </list>
     </option>
@@ -182,9 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +290,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM_Redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ChainOfResponsibility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM_Redis" type="b2602c69:ProjectViewProjectNode" />
@@ -252,6 +327,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,11 +486,12 @@
       <workItem from="1533031519257" duration="446000" />
       <workItem from="1533084289402" duration="244000" />
       <workItem from="1533108518674" duration="6737000" />
+      <workItem from="1533170354642" duration="14683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41721000" />
+    <option name="totallyTimeSpent" value="56404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -437,11 +516,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287234" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.171875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1734375" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +529,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,33 +546,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.1.RELEASE/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/SSM_Demo_war.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Dao/StudentMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Entity/SeeUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Entity/Student.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/IStudentService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/RedisBaiseTakes.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/StudentService.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="jar://E:/environment/JDK1.8/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -592,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/environment/JDK1.8/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1114">
-          <caret line="738" column="29" selection-start-line="738" selection-start-column="29" selection-end-line="738" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -610,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -690,29 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/JdkProxyExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/aopalliance/intercept/MethodInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -720,28 +735,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodInterceptor.class">
+    <entry file="jar://E:/environment/JDK1.8/src.zip!/java/lang/reflect/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="-463">
+          <caret line="704" column="61" selection-start-line="704" selection-start-column="61" selection-end-line="704" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/HelloWorldNoInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/InterceptorCGLIBProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Pattern/CglibProxyExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/HelloWorldNoInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="8" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="81">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/HelloWorldImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JdkProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CglibProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/environment/JDK1.8/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="483" column="34" lean-forward="true" selection-start-line="483" selection-start-column="34" selection-end-line="483" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="247" column="34" lean-forward="true" selection-start-line="247" selection-start-column="34" selection-end-line="247" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar!/org/springframework/cglib/core/AbstractClassGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/environment/JDK1.8/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/CGLIBPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="113" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/JDKPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Proxy/InterceptorJdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/ChainOfResponsibility/Interceptor1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -750,8 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/ProxyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="37" column="71" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
