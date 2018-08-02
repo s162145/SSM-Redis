@@ -7,13 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a6cc88-f68d-4f31-a165-d429119c46ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/JingDongObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/TaoBaoObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListTray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Tray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IDCardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RequestTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/RequestTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Controllers/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/SeeUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/SeeUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/IStudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/RedisBaiseTakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/RedisBaiseTakes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/Service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/ServiceImpl/SeeUserRedisTakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Demo/WEB-INF/classes/ServiceImpl/SeeUserRedisTakes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Java/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Java/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,52 +45,132 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/ProductList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JingDongObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/JingDongObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaoBaoObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/TaoBaoObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DesignPatternController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DesignPatternController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="392">
+              <caret line="37" column="132" lean-forward="true" selection-start-line="37" selection-start-column="132" selection-end-line="37" selection-end-column="132" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListLink.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListLink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListTray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Tray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Factory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,8 +181,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -105,7 +205,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/Java/Controllers/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
@@ -121,7 +220,23 @@
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/ProductList.java" />
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/JingDongObserver.java" />
         <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/TaoBaoObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controllers/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/ProductFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IProductFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IDCard.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IDCardFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Tray.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListLink.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListTray.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListPage.java" />
       </list>
     </option>
   </component>
@@ -194,7 +309,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Observable" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM_Redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM_Redis" type="b2602c69:ProjectViewProjectNode" />
@@ -384,7 +508,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34493000" />
+    <option name="totallyTimeSpent" value="44807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -403,7 +527,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3287234" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3287234" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -412,7 +536,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3287234" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1734375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1734375" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -476,49 +600,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/Test/Java/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test/Java/test.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties" />
-    <entry file="jar://E:/environment/JDK1.8/src.zip!/javax/annotation/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1444">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.1.RELEASE/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/SSM_Demo_war.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Dao/StudentMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Java/Entity/SeeUser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Java/Entity/Student.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Java/Service/IStudentService.java" />
@@ -645,45 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/ProductList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/JingDongObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/TaoBaoObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -698,12 +740,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="419">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/TaoBaoObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/ProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/JingDongObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Observable/ProductList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IDCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/IDCardFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/pers/syl/ssm/designPattern/AbstractFactory/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Tray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/Factory/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controllers/DesignPatternController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="37" column="132" lean-forward="true" selection-start-line="37" selection-start-column="132" selection-end-line="37" selection-end-column="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListTray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/pers/syl/ssm/designPattern/AbstractFactory/ListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
