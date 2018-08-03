@@ -33,9 +33,4 @@ public class DesignPatternController {
         card3.use();
     }
 
-    @RequestMapping("/AbstractFactoryTest")
-    public void AbstractFactoryTest(){
-        pers.syl.ssm.designPattern.AbstractFactory.Factory factory = pers.syl.ssm.designPattern.AbstractFactory.Factory.getFactory("");
-    }
-
 }

@@ -1,18 +1,18 @@
 package pers.syl.ssm.designPattern.AbstractFactory;
 
-public class ListFactory extends Factory {
+public class TableFactory extends Factory {
     @Override
     public Link createLink(String caption, String url) {
-        return new ListLink(caption, url);
+        return new TableLink(caption, url);
     }
 
     @Override
     public Tray createTray(String caption) {
-        return new ListTray(caption);
+        return new TableTray(caption);
     }
 
     @Override
     public Page createPage(String title, String author) {
-        return new ListPage(title, author);
+        return new TablePage(title, author);
     }
 }
